@@ -1,0 +1,35 @@
+Ajouter à votre Doorlock Config : 
+
+	{
+		textCoords = vector3(846.76, -112.69, 80.02),
+		authorizedJobs = {'irishpub'},
+		locked = true,
+		maxDistance = 3.5,
+		doors = {
+			{objHash = GetHashKey('ipub_door'), objHeading = 15.10, objCoords = vector3(846.5336303710938, -111.93374633789062, 80.0233154296875)}
+		}
+	},
+
+	-- Porte Staff Only
+
+	{
+		textCoords = vector3(830.06, -112.34, 80.02),
+		authorizedJobs = {'irishpub'},
+		locked = true,
+		maxDistance = 3.5,
+		doors = {
+			{objHash = GetHashKey('ipub_door_02'), objHeading = -119.98, objCoords = vector3(830.3626098632812, -111.55908966064453, 79.92501068115234)}
+		}
+	},
+
+	-- Porte Garage
+
+	{
+		textCoords = vector3(823.08, -119.01, 80.02),
+		authorizedJobs = {'irishpub'},
+		locked = true,
+		maxDistance = 8,
+		doors = {
+			{objHash = GetHashKey('ipub_gate'), objCoords = vector3(822.8849487304688, -119.18067169189453, 80.46)} -- x = 822.92, y = -119.12, z = 79.52
+		}
+	},
